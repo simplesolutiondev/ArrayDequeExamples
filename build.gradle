@@ -1,0 +1,16 @@
+group 'simplesolution.dev'
+version '1.0.0'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "simplesolution.dev.ArrayDequeExamples"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
